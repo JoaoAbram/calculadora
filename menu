@@ -1,5 +1,75 @@
 #include <stdio.h>
 
+float soma()
+{
+    float x, y, z;
+
+        printf("Digite x:\n");
+        scanf("%f", &x);
+
+        printf("Digite y:\n");
+        scanf("%f", &y);
+
+        z = x + y;
+
+        printf("O resultado de x + y = %2.f\n", z);
+
+
+        return z;
+}
+
+
+float subtracao()
+{
+    float x, y, z;
+
+    printf("Digite x:\n");
+    scanf("%f", &x);
+
+    printf("Digite y:\n");
+    scanf("%f", &y);
+
+    z = x - y;
+
+    printf("O resultado de x - y = %f\n", z);
+
+    return z;
+}
+
+float multiplicacao()
+{
+    float x, y, z;
+
+    printf("Digite x:\n");
+    scanf("%f", &x);
+
+    printf("Digite y:\n");
+    scanf("%f", &y);
+
+    z = x * y;
+
+    printf("O produto de x*y = %f\n", z);
+
+    return z;
+}
+
+float divisao()
+{
+    float x, y, z;
+
+    printf("Digite x:\n");
+    scanf("%f", &x);
+
+    printf("Digite y:\n");
+    scanf("%f", &y);
+
+    z = x / y;
+
+    printf("O resultado de x/y = %f\n", z);
+
+    return z;
+}
+
 int main()
 {
     int c;
