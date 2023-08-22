@@ -69,3 +69,31 @@ float divisao()
 
     return z;
 }
+
+int main()
+{
+    int c;
+    printf("Selecione uma opcao:\n1-Soma \n2-Subtracao \n3-Multiplicacao \n4-Divisao\n");
+    scanf("%d",&c);
+    switch(c){
+        case 1:
+        soma();
+        break;
+        
+        case 2:
+        subtracao();
+        break;
+        
+        case 3:
+        multiplicacao();
+        break;
+        
+        case 4:
+        divisao();
+        break;
+        
+        default:
+        printf("Selecione uma opção valida");
+    }
+    return 0;
+}
